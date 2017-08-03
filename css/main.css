@@ -207,28 +207,43 @@ nav li a:hover{
     
 }
 
+.body3 h2{
+    text-transform: uppercase;
+    color : #bd2631;
+    font-size: 18px;
+}
 
+.body3 p{
+
+    color : #fff;
+    font-size: 10px;
+}
 
 .body3{
-    
+    box-sizing: border-box;
+    position: relative;
 }
 .body3_1 {
 
     float: left;
     box-sizing: border-box;
-    background-size: cover;
-    background: #000 url(../img/products_img.png) no-repeat ;
+
+    background: #000 url(../img/products_img.jpeg) no-repeat ;
     padding-top: 200px;
+    padding-left: 50px;
     padding-bottom: 190px;
     width: 50%;
     height: 453px;
+    background-size: cover;
+
+
 }
 
 .body3_2{
     float: left;
-    background-size: cover;
-    background: url(../img/products_right_img.png) no-repeat  ;
 
+    background: url(../img/products_right_img.jpeg) no-repeat  ;
+    background-size: cover;
     width: 25%;
     height: 453px;
 }
@@ -236,7 +251,7 @@ nav li a:hover{
 .body3_3{
 
     float: left;
-    background-size: cover;
+
     background: url(../img/battery_icon.png) no-repeat center center  ;
     
     width: 25%;
@@ -250,57 +265,81 @@ nav li a:hover{
     height:  auto;
 }
 
+.body4 h2{
+    text-transform: uppercase;
+    color : #bd2631;
+    font-size: 18px;
+}
 
+.body4 p{
+
+    color : #fff;
+    font-size: 10px;
+}
 .body4_1 {
 
     float: left;
-    background-size: cover;
-    background: url(../img/services_left_img.png) no-repeat;
+
+    background: url(../img/services_left_img.jpeg) no-repeat;
     width: 25%;
     height: 430px;
-    
+    background-size: cover;
     
 }
 
 .body4_2{
     float: left;
-    background-size: cover;
+
     background: url(../img/gear_icon.png) no-repeat center center;
     width: 25%;
     height: 430px;
-    
+
 
 }
 
 .body4_3 {
 
     float: left;
-    background-size: cover;
-    background: #000 url(../img/services_img.png) no-repeat;
+
+    background: #000 url(../img/services_img.jpeg) no-repeat;
     width: 50%;
     height: 430px;
-
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-left: 50px;
+    background-size: cover;
 }
 
 .body5{
     width: 100%;
     height:  auto;
 }
+.body5 h2{
+    text-transform: uppercase;
+    color : #bd2631;
+    font-size: 18px;
+}
 
+.body5 p{
+
+    color : #fff;
+    font-size: 10px;
+}
 .body5_1 {
 
     float: left;
-    background-size: cover;
-    background: #000 url(../img/battery_img.png) no-repeat;
+
+    background: #000 url(../img/battery_img.jpeg) no-repeat;
     width: 50%;
-
     height: 454px;
-
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-left: 50px;
+    background-size: cover;
 }
 
 .body5_2{
     float: left;
-    background-size: cover;
     background: url(../img/trashcan.png) no-repeat center center #bd2631;
     width: 25%;
     height: 454px;
@@ -311,10 +350,11 @@ nav li a:hover{
 .body5_3{
 
     float: left;
-    background-size: cover;
-    background: url(../img/battery_right_img.png) no-repeat ;
+
+    background: url(../img/battery_right_img.jpeg) no-repeat ;
     width: 25%;
     height: 454px;
+    background-size: cover;
 }
 
 .services {
@@ -365,13 +405,12 @@ nav li a:hover{
 
     padding: 0;
     margin: 0;
+    font-size: 0;
 
 }
 .images_href{
     width: 20%;
     padding: 0;
-    margin-bottom: -8px;
-
     float: left;
     text-align: center;
 }
@@ -421,7 +460,7 @@ nav li a:hover{
 }
 
 .footer_first p{
-    text-transform: uppercase;
+    
     color : #fff;
     font-size: 10px;
 }
